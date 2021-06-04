@@ -7,11 +7,6 @@ pipeline {
             }
         }
 
-        stage('version') {
-            steps {
-                sh 'npm --version'
-            }
-        }
         stage('test') {
             steps {
                 sh 'mocha'
