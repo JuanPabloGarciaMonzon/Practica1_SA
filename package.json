@@ -1,0 +1,19 @@
+{
+  "name": "practica1_sa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scripts": {
+    "test": "mocha"
+  }
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^8.2.1"
+  }
+}
