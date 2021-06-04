@@ -6,11 +6,19 @@ pipeline {
                 sh 'npm install'
             }
         }
+
+        stage('version') {
+            steps {
+                sh 'npm --version'
+            }
+        }
         stage('test') {
             steps {
                 sh 'mocha'
             }
-        }    
+        }  
+
+  
          stage('run') {
             steps {
             
