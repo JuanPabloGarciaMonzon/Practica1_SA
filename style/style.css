@@ -8,7 +8,7 @@ html
 body
 { font: normal .80em 'trebuchet ms', arial, sans-serif;
   background: #F0EFE2;
-  color: #777;}
+  color: #F7FE2E;}
 
 p
 { padding: 0 0 20px 0;
@@ -34,14 +34,14 @@ h4, h5, h6
 { margin: 0;
   padding: 0 0 5px 0;
   font: normal 120% arial, sans-serif;
-  color: #A4AA04;}
+  color: #2E2EFE;}
 
 h5, h6
 { font: italic 95% arial, sans-serif;
   color: #000;}
 
 h6
-{ color: #362C20;}
+{ color: #00FF00;}
 
 a, a:hover
 { outline: none;
